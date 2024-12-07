@@ -1,10 +1,18 @@
-# **OSN-MINIPROJECT1**
+# **shreyas.sh** `💻`
+
+![Waketime](https://img.shields.io/badge/Waketime-105%20hrs%2042%20mins-blueviolet?style=flat&labelColor=black&logo=clock&logoColor=white)
 
 
-## *Project Title:*  ***Implementation of a simple shell in C***
+## *Project Title:*  ***A shell for Unix-based OSs, written in C*** `🐚`
+
+
+### Description:
+- *This project is a simple shell implementation for Unix-based operating systems, written in C. It was developed as part of the Operating Systems and Networks course at IIIT Hyderabad.*
+
+
 
 ### *Author: Shreyas Mehta (2023101059) IIIT-H*
-### INDEX:
+### INDEX: `📚`
 1. [Project Description](#project-description)
 2. [File Structure](#file-structure)
 3. [Build Instructions](#build-instructions)
@@ -16,7 +24,7 @@
 
 
 
-#### FILE STRUCTURE:
+#### FILE STRUCTURE: `📁`
 *The project is organized as follows:*
 ```
 .
@@ -158,7 +166,7 @@
 
 
 
-### File Description:
+### File Description: `📝`
 
 - **main.c**: The main entry point for the program.
     - **Contains the `main()` function that initializes the shell and runs the shell loop.**
@@ -862,8 +870,7 @@
     |----------------------|--------------------------------------------------------------|
     | `SIGNALS_H`          | `1` (Used to prevent multiple inclusions of this header file)|
     ---
-
-### Execution Flow:
+### Execution Flow: `main.c`
 - The main function initializes the shell and runs the shell loop.
 - The shell loop reads the user input, processes the input, and executes the command.
 - The command execution logic tokenizes the input command and determines whether to run the command in the foreground or background.
@@ -886,7 +893,7 @@
 -  The command logic processes the user input and executes the corresponding command.
 
 
-### Commands Supported:
+### Commands Supported: `⚙️`
 - **hop**: Change the current working directory and prints the absolute path.
     - *Syntax*: `hop <directory>`
         - if `directory` is `"~"`, it changes to the home directory.
@@ -985,7 +992,7 @@
         ```
 
 
-### Error Handling:
+### Error Handling: `🚨`
 - The shell handles errors by printing error messages to the standard output and exiting the program in case of critical errors.
 - All error messages are printed in red color to distinguish them from regular output and are redirected to the standard error stream.
 - Internal Errors such as fopen, fork, execvp, etc. are handled by printing an error message and continuing the shell loop.
@@ -994,7 +1001,7 @@
 - If the prompt is not initialized properly, the shell prints an error message and exits.
 - Once the prompt is initialised properly, then the user can only exit when the user enters `q` or `ctrl+d`.
 - The shell handles invalid commands by printing an error message and continuing the shell loop.
-### Assumptions:
+### Assumptions: `🧠`
 - Max INPUT command length is 1000. // 4096
 - Max number of arguments in the command is 100.
 - Max number of files in the directory is 100. // 1000
@@ -1071,7 +1078,7 @@
 - If the process exceeds 100, then it truncates the process list to 50 and kills the rest of the processes. 
 
 
-### References:
+### References: `📚`
 - [Linux System Programming](https://www.geeksforgeeks.org/linux-system-program)
 - [Stack Overflow](https://stackoverflow.com)
 - [Man Pages](https://man7.org)
