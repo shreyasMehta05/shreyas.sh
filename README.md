@@ -24,7 +24,7 @@
 
 
 
-#### FILE STRUCTURE: `📁`
+#### FILE STRUCTURE: 
 *The project is organized as follows:*
 ```
 .
@@ -166,7 +166,7 @@
 
 
 
-### File Description: `📝`
+### File Description: 
 
 - **main.c**: The main entry point for the program.
     - **Contains the `main()` function that initializes the shell and runs the shell loop.**
