@@ -1,0 +1,62 @@
+{
+	"folders": [
+		{
+			"path": "../alias"
+		},
+		{
+			"path": "../command"
+		},
+		{
+			"path": "../display"
+		},
+		{
+			"path": "../hop"
+		},
+		{
+			"path": "../image"
+		},
+		{
+			"path": "../iMan"
+		},
+		{
+			"path": "../interface"
+		},
+		{
+			"path": "../log"
+		},
+		{
+			"path": "../neonate"
+		},
+		{
+			"path": "../ping"
+		},
+		{
+			"path": "../process"
+		},
+		{
+			"path": "../proclore"
+		},
+		{
+			"path": "../redirection"
+		},
+		{
+			"path": "../reveal"
+		},
+		{
+			"path": "../seek"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"utsname.h": "c",
+			"types.h": "c",
+			"interface.h": "c",
+			"proclore.h": "c",
+			"command.h": "c",
+			"functions.h": "c"
+		}
+	}
+}
