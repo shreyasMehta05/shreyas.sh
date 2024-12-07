@@ -870,7 +870,7 @@
     |----------------------|--------------------------------------------------------------|
     | `SIGNALS_H`          | `1` (Used to prevent multiple inclusions of this header file)|
     ---
-### Execution Flow: `main.c`
+### Execution Flow: 
 - The main function initializes the shell and runs the shell loop.
 - The shell loop reads the user input, processes the input, and executes the command.
 - The command execution logic tokenizes the input command and determines whether to run the command in the foreground or background.
@@ -893,7 +893,7 @@
 -  The command logic processes the user input and executes the corresponding command.
 
 
-### Commands Supported: `⚙️`
+### Commands Supported: 
 - **hop**: Change the current working directory and prints the absolute path.
     - *Syntax*: `hop <directory>`
         - if `directory` is `"~"`, it changes to the home directory.
@@ -1001,7 +1001,7 @@
 - If the prompt is not initialized properly, the shell prints an error message and exits.
 - Once the prompt is initialised properly, then the user can only exit when the user enters `q` or `ctrl+d`.
 - The shell handles invalid commands by printing an error message and continuing the shell loop.
-### Assumptions: `🧠`
+### Assumptions: 
 - Max INPUT command length is 1000. // 4096
 - Max number of arguments in the command is 100.
 - Max number of files in the directory is 100. // 1000
@@ -1078,7 +1078,7 @@
 - If the process exceeds 100, then it truncates the process list to 50 and kills the rest of the processes. 
 
 
-### References: `📚`
+### References: 
 - [Linux System Programming](https://www.geeksforgeeks.org/linux-system-program)
 - [Stack Overflow](https://stackoverflow.com)
 - [Man Pages](https://man7.org)
